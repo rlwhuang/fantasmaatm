@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ciudad fantasma</title>
+	<link rel="stylesheet" href="normalise.css" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="js/zepto.js"></script>
+
+</head>
+
+<body>
+	<header>
+
+			<h1>冥通銀行 THE HELL BANK CORPORATION</h1>
+
+
+	</header>
+
+	<section class="text-container" style="text-align: center">
+		<h2>  </h2>
+        <h2>正在轉接</h2>
+        <h2>Redirecting... </h2>
+        <h2><img src="hourglass.svg"></h2>
+        <h2>廣告 A message from our sponsor </h2>
+        <div><img id="ad" src=""> </div>
+        
+ 
+	</section>
+
+    
+    <script>
+        var ads = ["ad-iphone.jpg", "ad-reincarnation.jpg", "ad-cars.jpg"]; 
+        var ad = ads[Math.floor(Math.random() * ads.length)];
+        $('#ad').attr('src', "ads/" + ad); 
+        
+    window.setTimeout(
+        function() {
+        
+            window.location.href = "withdraw2.html";
+        
+        }
+        , 5000);
+    
+    </script>
+</body>
+</html>

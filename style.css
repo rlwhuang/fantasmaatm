@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background: #ed1c24;
+}
+
+
+* {
+    font-family: 'Times New Roman', serif; 
+}
+
+header{
+    text-align: center; 
+    color: ghostwhite;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    border: 5px solid ghostwhite;
+    color: white;
+    padding: 1em;;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    width: 40%;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+.button-container{
+    text-align: center; 
+    margin: auto; 
+}
+
+.text-container{
+    width: 50%;
+    margin: 2em auto;
+    color: ghostwhite;
+}
+
+.button-small{
+    border: 5px solid ghostwhite; 
+    text-align: center; 
+    font-size: 2em;
+    color: ghostwhite; 
+    width: 20%;
+    margin: 1em auto;
+    padding: 2em;
+}
